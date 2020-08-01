@@ -5,6 +5,7 @@ components takes either integer with number of nodes to create uniformed cluster
 takes list to create diverse cluster sizes
 
 ### run
+from ncomponent import NComponent as nc
 1. Uniform clusters
 
     init_G = nc(cluster=3, node=15, degree=3, n_bridge=2)
